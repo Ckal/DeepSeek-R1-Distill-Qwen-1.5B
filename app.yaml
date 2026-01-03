@@ -1,0 +1,18 @@
+name: DeepSeek-R1-Distill-Qwen-1.5B
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/DeepSeek-R1-Distill-Qwen-1.5B
+  original_url: https://huggingface.co/spaces/Chris4K/DeepSeek-R1-Distill-Qwen-1.5B
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
